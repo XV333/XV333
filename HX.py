@@ -1,19 +1,14 @@
 printf "\e[1;36mWelcome to my tool (pkg.Termux), you can install the basic commands you need Termux and solve all the problems that you will face when installing any tool"
 printf "\n"
 printf "\e[1;37
-                  ███╗░░░███╗░██████╗
-                  ████╗░████║██╔════╝
-                  ██╔████╔██║╚█████╗░
-                  ██║╚██╔╝██║░╚═══██╗
-                  ██║░╚═╝░██║██████╔╝
-                  ╚═╝░░░░░╚═╝╚═════╝░
-
-           ████████╗███████╗░█████╗░██╗░░██╗
-           ╚══██╔══╝██╔════╝██╔══██╗██║░░██║
-           ░░░██║░░░█████╗░░██║░░╚═╝███████║
-           ░░░██║░░░██╔══╝░░██║░░██╗██╔══██║
-           ░░░██║░░░███████╗╚█████╔╝██║░░██║
-           ░░░╚═╝░░░╚══════╝░╚════╝░╚═╝░░╚═╝"
+_____                    __   __    
+|  ___|                    \ \ / /    
+| |__ ___  __ _ _ __ ___    \ V /     
+|  __/ __|/ _` | '_ ` _ \   /   \     
+| |__\__ \ (_| | | | | | | / /^\ \    
+\____/___/\__,_|_| |_| |_| \/   \/    
+                               ______ 
+                              |______|"
 printf "\n"
 printf "\e[1;32m"
 pkg install root-repo -y
@@ -39,7 +34,7 @@ apt-get update
 
 apt-get upgrade
 
-apt install php
+pkg install php
 
 apt install python
 
@@ -54,7 +49,6 @@ pkg install wget
 
 pkg install python2
 
-pkg install python2-dev
 
 pkg install cowsay
 
@@ -62,13 +56,12 @@ pkg install toilet
 
 pkg install ruby
 
-pkg install help
 
 gem install lolcat
 
 pkg install curl
 
-pkg install wgetrc
+pkg install wget
 
 pkg install unzip
 
@@ -106,7 +99,7 @@ apt install nano
 
 apt install Python
  pip apt 
-install ruby
+pkg install ruby
 
 pip install bundle
 
@@ -125,6 +118,7 @@ apt-get install libhtmal-html5-entites-numbered-perl
 apt-get install lbhtmal-parser-perl
 
 apt-get install libwww-perl
+pkg install x11-repo
 
 printf "\e[1;36m Termux Install Finished .. you can following more in my Channel and pages (MS TECH) 
 printf "\n"
