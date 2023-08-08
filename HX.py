@@ -12,9 +12,7 @@ _____                    __   __
 printf "\n"
 printf "\e[1;32m"
 pkg install root-repo -y
-termux-setup-storage -y
-pkg update -y
-pkg upgrade -y
+termux-setup-storag
 pkg install php -y
 pkg install openssh -y
 pkg install github -y
